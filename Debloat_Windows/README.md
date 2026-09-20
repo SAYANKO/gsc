@@ -13,7 +13,7 @@ The script can be executed directly from GitHub without manually downloading the
 Open **PowerShell as Administrator** and run:
 
 ```powershell
-irm https://raw.githubusercontent.com/SAYANKO/gsc/main/Debloat_Windows11.ps1 | iex
+irm https://raw.githubusercontent.com/SAYANKO/gsc/main/Debloat_Windows/Debloat_Windows11.ps1 | iex
 ```
 
 The bootstrapper:
@@ -287,7 +287,7 @@ The temporary file is removed after execution.
 The following command executes code directly from GitHub:
 
 ```powershell
-irm https://raw.githubusercontent.com/SAYANKO/gsc/main/Debloat_Windows11.ps1 | iex
+irm https://raw.githubusercontent.com/SAYANKO/gsc/main/Debloat_Windows/Debloat_Windows11.ps1 | iex
 ```
 
 Only use this command when you trust the repository and understand the code being executed.
@@ -298,7 +298,7 @@ You can inspect the repository source here:
 
 **GitHub Repository**
 
-https://github.com/SAYANKO/gsc
+https://github.com/SAYANKO/gsc/tree/main/Debloat_Windows
 
 ---
 

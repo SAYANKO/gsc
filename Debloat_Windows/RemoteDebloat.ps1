@@ -1,7 +1,7 @@
 # Windows 11 Full Debloat - Remote Bootstrapper
 #
 # Usage:
-# irm https://raw.githubusercontent.com/SAYANKO/gsc/main/Debloat_Windows11.ps1 | iex
+# irm https://raw.githubusercontent.com/SAYANKO/gsc/main/Debloat_Windows/Debloat_Windows11.ps1 | iex
 
 $ErrorActionPreference = "Stop"
 
@@ -11,7 +11,7 @@ $ErrorActionPreference = "Stop"
     [Net.SecurityProtocolType]::Tls12
 
 # GitHub Raw URL
-$DownloadURL = 'https://raw.githubusercontent.com/SAYANKO/gsc/main/Debloat_Windows11.ps1'
+$DownloadURL = 'https://raw.githubusercontent.com/SAYANKO/gsc/main/Debloat_Windows/Debloat_Windows11.ps1'
 
 # Generate a random temporary filename
 $rand = Get-Random -Maximum 99999999
