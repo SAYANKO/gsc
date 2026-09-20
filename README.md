@@ -1,0 +1,2 @@
+# gsc
+Global PowerShell Scripts
